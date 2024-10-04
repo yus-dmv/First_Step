@@ -1,0 +1,116 @@
+body {
+    background-color: #F87C56;
+    background-image: url(https://www.technocrazed.com/wp-content/uploads/2015/12/BMW-Wallpaper-HD-29.jpg);
+    background-size: cover;
+    background-repeat: initial;
+    backdrop-filter: blur(10px);
+}
+.title-qara {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 3, 3);
+    border-style: solid;
+}
+.title-goy {
+    color: rgb(75, 58, 235);
+    background-color: chartreuse;
+    border-style: dashed;
+}
+h1 {
+    color: rgb(128, 255, 0);
+    background-color: blue;
+    background-position: right;
+}
+#btn {
+    background-color: rgba(12, 230, 103, 0.163);
+    border-radius: 10px;
+}
+
+/* GELEN DERS : BACKGROUND COLOR */
+
+.title-teze {
+    color: rgb(0, 0, 0);
+    background-color: rgb(17, 51, 245);
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-blend-mode: multiply;
+    backdrop-filter: blur(10px);
+    border-style: double;
+} 
+
+/* .title-newtap_2 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(115, 13, 13);
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-blend-mode: multiply;
+    backdrop-filter: blur(10px);
+    border-style: double;
+    border-color: chartreuse;
+    border-width: 5px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    padding-left: 30%;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    outline-style: solid;
+    outline-color: chartreuse;
+    outline-width: 2px;
+    border-radius: 20px;
+} */
+
+/* GELEN DERS : SIRAYNAN YOXLAMAQ : MARGIN PADDING OUTLINE + WIDTH HEIGHT AUTO */
+
+.title-newtap_2 {
+    color: rgb(16, 116, 150);
+    background-color: rgb(89, 255, 0);
+    background-size: cover;
+    background-position: right bottom;
+    background-blend-mode: multiply;
+    backdrop-filter: blur(10px);
+    border-style: double;
+    border-color: rgb(221, 0, 78);
+    border-width: 5px;
+    margin: 
+        50px,
+        20px,
+        30px,
+        40px;
+    /* padding: 
+        20px,
+        30%,
+        50px,
+        20px; */
+    outline: 
+        2px,
+        solid,
+        chartreuse; 
+    border-radius: 20px;
+    color: rgb(78, 141, 162); 
+    text-align: center;
+    text-decoration-line: overline;
+    text-decoration-color: darkcyan;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: manual;
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: normal;
+}
+
+a:link{
+    color: red;}
+
+a:visited{
+    color: blue;}
+
+a:hover{
+    color: green;}
+
+a:active{
+    color: yellow;}
